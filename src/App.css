@@ -3,40 +3,24 @@
   --dark-pink: #f364ab;
 }
 * {
-  background-color: var(--light-pink);
   margin: 0;
   padding: 0;
 }
 
 .wrapper {
-  min-height: 80px;
-  background-color: var(--light-pink);
-  font-family: "Merriweather", serif;
-  color: rgb(52, 18, 27);
+  font-family: "Merriweather", monospace;
 }
-.main {
-  font-family: "DM Serif Display", serif;
-  font-size: 60px;
-}
-.navbar-nav {
-  font-weight: 400;
-}
-.nancy-img {
-  border-radius: 50%;
-  display: flex;
-  margin: auto;
-  border: 2px solid rgb(244, 35, 150);
-  padding: 7px;
+.navbar {
+  background-color: black;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
-.buttons {
+.navbar-nav {
+  font-weight: 600;
+}
+
+#weather-logo {
   display: flex;
-  justify-content: center;
-  margin: 30px;
-}
-.about {
-  margin: 20px;
-}
-.contact {
-  margin: 20px;
+  margin: auto;
 }

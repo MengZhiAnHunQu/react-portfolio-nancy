@@ -1,0 +1,23 @@
+.hero {
+  font-family: "Caveat", cursive;
+  font-size: 70px;
+  min-height: 70vh;
+}
+
+#myVideo {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.nancy-img {
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+  border: 1px solid rgb(201, 148, 236);
+  padding: 9px;
+}

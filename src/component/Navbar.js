@@ -1,11 +1,12 @@
 import React from "react";
+import sun from "../images/sun.png";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light mt-3 d-flex p-0">
+    <nav className="navbar navbar-expand-sm navbar-dark  d-flex opacity:0.5 p-3">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img src="logo192.png" width={70} />
+        <a className="navbar-brand" href="#" bg="secondary">
+          Nancy Wang
         </a>
         <button
           className="navbar-toggler"
@@ -19,26 +20,34 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto fs-5">
+          <div className="navbar-nav ms-auto fs-6">
             <a
-              className="nav-link active text-xl me-5"
+              className="nav-link active text-xl me-4 "
               aria-current="page"
               href="#"
             >
               Skills
             </a>
 
-            <a className="nav-link active text-xl me-5" href="#projects">
+            <a className="nav-link active text-xl me-4" href="#projects">
               Projects
             </a>
 
-            <a className="nav-link active text-xl me-5" href="#about">
+            <a className="nav-link active text-xl me-4" href="#about">
               About
             </a>
 
-            <a className="nav-link active text-xl " href="#contact">
+            <a className="nav-link active text-xl me-4 " href="#contact">
               Contact
             </a>
+
+            <img
+              src={sun}
+              alt=""
+              width="25px"
+              height="25px"
+              id="weather-logo"
+            />
           </div>
         </div>
       </div>
