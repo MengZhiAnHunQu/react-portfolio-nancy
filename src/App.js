@@ -1,20 +1,19 @@
-import logo from "./logo.svg";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Navbar } from "./component/Navbar";
 import { Main } from "./component/Main";
 import { Contact } from "./component/Contact";
 import { About } from "./component/About";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Main />
-      <div className="buttons">
+    <div className="wrapper">
+      <Container>
+        <Navbar />
+        <Main />
         <Contact />
         <About />
-      </div>
+      </Container>
     </div>
   );
 }
