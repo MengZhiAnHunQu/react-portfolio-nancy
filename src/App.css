@@ -7,9 +7,7 @@
   padding: 0;
 }
 
-.wrapper {
-  font-family: "Merriweather", monospace;
-}
+/* navbar */
 .navbar {
   background-color: black;
   opacity: 0.5;
@@ -23,4 +21,32 @@
 #weather-logo {
   display: flex;
   margin: auto;
+}
+
+/* skills */
+.skills-section {
+  min-height: 40vh;
+}
+.section-title {
+  font-size: 50px;
+  color: rgb(113, 16, 137);
+}
+.section-title > hr {
+  width: 25%;
+  display: block;
+  margin: auto;
+  border: 2px dotted purple;
+}
+
+/* projects */
+
+.project-section {
+  background-color: rgb(232, 214, 240);
+  color: rgb(128, 13, 157);
+  padding: 40px 120px 40px 120px;
+}
+
+/* contact */
+#contact {
+  background-color: rgb(179, 117, 209);
 }

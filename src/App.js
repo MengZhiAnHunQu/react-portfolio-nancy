@@ -10,14 +10,16 @@ import { Projects } from "./component/Projects";
 function App() {
   return (
     <div className="wrapper">
-      <Navbar />
-      <Hero />
-      <Container>
+      <div className="top-section">
+        <Navbar />
+        <Hero />
+      </div>
+      <div className="bg-light">
         <Skills />
         <Projects />
         <About />
         <Contact />
-      </Container>
+      </div>
     </div>
   );
 }

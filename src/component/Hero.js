@@ -24,10 +24,7 @@ export const Hero = () => {
               Frontend developer, based in Australia 🇦🇺
             </h3>
 
-            <Button
-              variant="outline-light"
-              style={{ fontFamily: "Merriweather" }}
-            >
+            <Button variant="outline-light" style={{ fontFamily: "Roboto" }}>
               Download Resume
             </Button>
           </div>
@@ -38,7 +35,7 @@ export const Hero = () => {
               width="60%"
               height="auto"
               alt=" Nancy photo"
-              className="nancy-img mt-5"
+              className="nancy-img mt-5 "
             />
           </div>
         </Row>
