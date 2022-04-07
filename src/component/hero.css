@@ -1,6 +1,6 @@
 .hero {
   font-family: "Caveat", cursive;
-  font-size: 70px;
+  font-size: 40px;
   min-height: 60vh;
 }
 
@@ -9,7 +9,7 @@
   width: 100%;
   left: 0%;
   top: 0%;
-  height: 85%;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
 }

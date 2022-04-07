@@ -26,6 +26,8 @@
 /* skills */
 .skills-section {
   min-height: 40vh;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 .section-title {
   font-size: 50px;
@@ -41,8 +43,8 @@
 /* projects */
 
 .project-section {
-  background-color: rgb(232, 214, 240);
-  color: rgb(128, 13, 157);
+  background-color: rgb(238, 218, 247);
+  color: rgb(103, 14, 126);
   padding-left: 12%;
   padding-right: 12%;
 }

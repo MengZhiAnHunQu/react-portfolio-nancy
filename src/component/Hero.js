@@ -12,7 +12,7 @@ export const Hero = () => {
           <source src={pexels} type="video/mp4" />
         </video>
 
-        <Row className="d-flex mt-4 pt-2 text-light">
+        <Row className="d-flex  text-light">
           <div className="col-md-7 col-xs-12 text-center p-3">
             <div>
               Hi, I am
@@ -28,10 +28,10 @@ export const Hero = () => {
           <div className="col-md-5 col-xs-12  d-flex ">
             <Image
               src={Nancy}
-              width="60%"
+              width="40%"
               height="auto"
               alt=" Nancy photo"
-              className="nancy-img mt-5 "
+              className="nancy-img mt-2 mb-5 "
             />
           </div>
         </Row>

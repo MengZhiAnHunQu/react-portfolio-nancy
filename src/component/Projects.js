@@ -1,8 +1,9 @@
 import React from "react";
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row, Button, Image } from "react-bootstrap";
 import { SectionTitle } from "./SectionTitle";
-import proj from "../images/proj.jpg";
+import movie from "../images/movie.png";
 import robot from "../images/robot.png";
+import list from "../images/list.png";
 
 export const Projects = () => {
   return (
@@ -13,15 +14,14 @@ export const Projects = () => {
             <SectionTitle title="Projects" />
           </Col>
         </Row>
-
-        {/* project 1 */}
+        {/* project 1 movie */} {/* project 1 movie */} {/* project 1 movie */}{" "}
+        {/* project 1 movie */} {/* project 1 movie */}
         <Row className="py-5">
           <Col md="6">
-            <img
-              src={proj}
+            <Image
+              src={movie}
               alt="project "
-              className="img-thumbnail"
-              width="60%"
+              className="img-thumbnail d-block m-auto img-fluid "
             />
           </Col>
 
@@ -33,7 +33,7 @@ export const Projects = () => {
               Movie Website
             </h2>
 
-            <p className="fw-bold mt-5">
+            <p className="fw-bold mt-3">
               Tech: HTML, CSS, JavaScript, REACT, API
             </p>
             <p>
@@ -42,7 +42,7 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-light " className="m-1">
+            <Button variant="outline-light " className="mr-1">
               View Project
             </Button>
 
@@ -56,15 +56,14 @@ export const Projects = () => {
             </Button>
           </Col>
         </Row>
-
-        {/* project 2 */}
+        <hr />
+        {/* project 2 Not to do List*/}
         <Row className="py-5">
           <Col md="6" className="order-md-2">
             <img
-              src={proj}
+              src={list}
               alt="project "
-              className="img-thumbnail "
-              width="60%"
+              className="img-thumbnail img-fluid "
             />
           </Col>
 
@@ -76,7 +75,7 @@ export const Projects = () => {
               Not To Do List
             </h2>
 
-            <p className="fw-bold mt-5">
+            <p className="fw-bold mt-3">
               Tech: HTML, CSS, JavaScript, REACT, API
             </p>
             <p>
@@ -85,36 +84,39 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-light " className="m-1 btn">
+            <Button variant="outline-light " className="mr-1 btn">
               View Project
             </Button>
 
-            <Button variant="outline-light " className="m-1 btn">
+            <Button
+              variant="outline-light "
+              className="m-1 btn"
+              href="https://github.com/MengZhiAnHunQu/react-not-to-do-list"
+            >
               <span className="fab fa-github text-light"></span> Visit Github
             </Button>
           </Col>
         </Row>
-
+        <hr />
         {/* project 3 */}
         <Row className="py-5">
           <Col md="6">
             <img
               src={robot}
               alt="project "
-              className="img-thumbnail"
-              width="80%"
+              className="img-thumbnail d-block m-auto img-fluid"
             />
           </Col>
 
           <Col md="6">
             <h2
-              className="proj-title fw-bolder mt-3"
+              className="proj-title fw-bolder mt-3 "
               style={{ fontFamily: "Merriweather" }}
             >
               Robot Collection
             </h2>
 
-            <p className="fw-bold mt-5">
+            <p className="fw-bold mt-3">
               Tech: HTML, CSS, JavaScript, REACT, API
             </p>
             <p>
@@ -125,7 +127,7 @@ export const Projects = () => {
 
             <Button
               variant="outline-light "
-              className="m-1"
+              className="mr-1"
               href="https://react-robot.netlify.app/"
               target="_blank"
             >
@@ -142,6 +144,9 @@ export const Projects = () => {
             </Button>
           </Col>
         </Row>
+        <Button variant="outline-light btn-lg " className="d-block m-auto mt-5">
+          View More Projects
+        </Button>
       </Container>
     </section>
   );

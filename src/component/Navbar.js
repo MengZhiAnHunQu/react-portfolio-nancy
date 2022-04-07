@@ -3,7 +3,10 @@ import sun from "../images/sun.png";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark  d-flex opacity:0.5 p-3">
+    <nav
+      className="navbar navbar-expand-sm navbar-dark  d-flex opacity:0.5 p-3"
+      id="navbar"
+    >
       <div className="container-fluid">
         <a className="navbar-brand fw-bold" href="#hero">
           Nancy Wang
