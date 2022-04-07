@@ -6,7 +6,7 @@ import github from "../images/github.png";
 
 export const Projects = () => {
   return (
-    <section id="projects" className="project-section">
+    <section id="projects" className="project-section pt-5 pb-5 ">
       <Container>
         <Row>
           <Col>

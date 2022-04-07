@@ -24,7 +24,7 @@ export const Navbar = () => {
             <a
               className="nav-link active text-xl me-4 "
               aria-current="page"
-              href="#"
+              href="#skills"
             >
               Skills
             </a>

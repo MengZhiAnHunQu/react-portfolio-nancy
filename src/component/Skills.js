@@ -15,7 +15,7 @@ import sql from "../images/sql.png";
 
 export const Skills = () => {
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <Container>
         <Row>
           <Col>

@@ -5,7 +5,7 @@ import Nancy from "../images/Nancy.JPG";
 
 export const About = () => {
   return (
-    <section id="about-me">
+    <section id="about">
       <SectionTitle title="About Me" />
       <Container>
         <Row>

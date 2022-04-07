@@ -1,29 +1,37 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { SectionTitle } from "./SectionTitle.js";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-5">
+    <section id="contact">
       <Container>
-        <SectionTitle title="Contact Me" />
+        <SectionTitle title="Contact" className="m-5" />
 
-        <Row>
+        <div className="text-center">
+          <div className="mb-5  text-light fs-4">nancywang.edu@gmail.com</div>
+
+          <Button variant="outline-light " className="btn-hello mb-5">
+            Say Hello!
+          </Button>
+        </div>
+
+        <Row className="pb-5">
           <Col className="d-flex justify-content-around fs-1">
-            <a target="_blank" href="mailto:youre@mail">
-              <span class="fa-brands fa-github"></span>
+            <a target="_blank" href="#link to ...">
+              <span className="fab fa-github text-light"></span>
             </a>
 
             <a target="_blank" href="#link to ...">
-              <span class="fab fa-linkedin"></span>
+              <span className="fab fa-linkedin text-light"></span>
             </a>
 
             <a target="_blank" href="#link to ...">
-              <span class="fab fa-twitter-square"></span>
+              <span className="fab fa-twitter-square text-light"></span>
             </a>
 
             <a target="_blank" href="#link to ...">
-              <span class="fab fa-facebook-square"></span>
+              <span className="fab fa-facebook-square text-light"></span>
             </a>
           </Col>
         </Row>
