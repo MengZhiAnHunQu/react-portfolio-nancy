@@ -7,7 +7,7 @@ import "./hero.css";
 export const Hero = () => {
   return (
     <Container>
-      <div className="hero mt-5">
+      <div className="hero mt-5" id="hero">
         <video autoPlay loop muted id="myVideo">
           <source src={pexels} type="video/mp4" />
         </video>

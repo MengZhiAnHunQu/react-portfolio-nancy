@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark  d-flex opacity:0.5 p-3">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold" href="#">
+        <a className="navbar-brand fw-bold" href="#hero">
           Nancy Wang
         </a>
         <button
