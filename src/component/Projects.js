@@ -3,6 +3,7 @@ import { Col, Container, Row, Button } from "react-bootstrap";
 import { SectionTitle } from "./SectionTitle";
 import proj from "../images/proj.jpg";
 import github from "../images/github.png";
+import robot from "../images/robot.png";
 
 export const Projects = () => {
   return (
@@ -13,6 +14,7 @@ export const Projects = () => {
             <SectionTitle title="Projects" />
           </Col>
         </Row>
+
         {/* project 1 */}
         <Row className="py-5">
           <Col md="6">
@@ -41,12 +43,17 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-primary " className="m-1">
+            <Button variant="outline-light " className="m-1">
               View Project
             </Button>
 
-            <Button variant="outline-primary " className="m-1">
-              <img src={github} alt="" width="20px" /> Visit Github
+            <Button
+              variant="outline-light "
+              className="m-1"
+              href="https://github.com/MengZhiAnHunQu/react-movie-list"
+              target="_blank"
+            >
+              <span className="fab fa-github text-light"></span> Visit Github
             </Button>
           </Col>
         </Row>
@@ -67,7 +74,7 @@ export const Projects = () => {
               className="proj-title fw-bolder mt-3"
               style={{ fontFamily: "Merriweather" }}
             >
-              Movie Website
+              Not To Do List
             </h2>
 
             <p className="fw-bold mt-5">
@@ -79,23 +86,24 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-primary " className="m-1">
+            <Button variant="outline-light " className="m-1 btn">
               View Project
             </Button>
 
-            <Button variant="outline-primary " className="m-1">
-              <img src={github} alt="" width="20px" /> Visit Github
+            <Button variant="outline-light " className="m-1 btn">
+              <span className="fab fa-github text-light"></span> Visit Github
             </Button>
           </Col>
         </Row>
+
         {/* project 3 */}
         <Row className="py-5">
           <Col md="6">
             <img
-              src={proj}
+              src={robot}
               alt="project "
               className="img-thumbnail"
-              width="60%"
+              width="80%"
             />
           </Col>
 
@@ -104,7 +112,7 @@ export const Projects = () => {
               className="proj-title fw-bolder mt-3"
               style={{ fontFamily: "Merriweather" }}
             >
-              Movie Website
+              Robot Collection
             </h2>
 
             <p className="fw-bold mt-5">
@@ -116,12 +124,22 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-primary " className="m-1">
+            <Button
+              variant="outline-light "
+              className="m-1"
+              href="https://react-robot.netlify.app/"
+              target="_blank"
+            >
               View Project
             </Button>
 
-            <Button variant="outline-primary " className="m-1">
-              <img src={github} alt="" width="20px" /> Visit Github
+            <Button
+              variant="outline-light "
+              className="m-1"
+              href="http://github.com/MengZhiAnHunQu/react-robot "
+              target="_blank"
+            >
+              <span className="fab fa-github text-light"></span> Visit Github
             </Button>
           </Col>
         </Row>

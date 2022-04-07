@@ -1,11 +1,12 @@
 import React from "react";
 import sun from "../images/sun.png";
+import moon from "../images/moon.png";
 
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark  d-flex opacity:0.5 p-3">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#" bg="secondary">
+        <a className="navbar-brand fw-bold" href="#">
           Nancy Wang
         </a>
         <button
@@ -41,13 +42,7 @@ export const Navbar = () => {
               Contact
             </a>
 
-            <img
-              src={sun}
-              alt=""
-              width="25px"
-              height="25px"
-              id="weather-logo"
-            />
+            <img src={sun} alt="" width="25px" height="25px" id="sun-moon" />
           </div>
         </div>
       </div>

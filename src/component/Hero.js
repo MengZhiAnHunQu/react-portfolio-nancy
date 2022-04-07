@@ -23,10 +23,6 @@ export const Hero = () => {
             <h3 className="mt-5 mb-3">
               Frontend developer, based in Australia 🇦🇺
             </h3>
-
-            <Button variant="outline-light" style={{ fontFamily: "Roboto" }}>
-              Download Resume
-            </Button>
           </div>
 
           <div className="col-md-5 col-xs-12  d-flex ">

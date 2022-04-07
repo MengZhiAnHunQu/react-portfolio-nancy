@@ -18,7 +18,7 @@
   font-weight: 600;
 }
 
-#weather-logo {
+#sun-moon {
   display: flex;
   margin: auto;
 }
@@ -43,9 +43,15 @@
 .project-section {
   background-color: rgb(232, 214, 240);
   color: rgb(128, 13, 157);
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 /* contact */
 #contact {
   background-color: rgb(179, 117, 209);
+}
+
+.btn {
+  background-color: rgb(179, 117, 209) !important;
 }
