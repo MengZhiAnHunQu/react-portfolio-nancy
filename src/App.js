@@ -3,7 +3,6 @@ import { Navbar } from "./component/Navbar";
 import { Hero } from "./component/Hero";
 import { Contact } from "./component/Contact";
 import { About } from "./component/About";
-import { Container } from "react-bootstrap";
 import { Skills } from "./component/Skills";
 import { Projects } from "./component/Projects";
 import { GoUp } from "./component/GoUp";

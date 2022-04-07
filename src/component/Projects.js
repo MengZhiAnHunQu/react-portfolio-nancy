@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import { SectionTitle } from "./SectionTitle";
 import proj from "../images/proj.jpg";
-import github from "../images/github.png";
 import robot from "../images/robot.png";
 
 export const Projects = () => {

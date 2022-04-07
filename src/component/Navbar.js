@@ -1,6 +1,5 @@
 import React from "react";
 import sun from "../images/sun.png";
-import moon from "../images/moon.png";
 
 export const Navbar = () => {
   return (

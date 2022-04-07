@@ -8,7 +8,7 @@ import css from "../images/css.png";
 import js from "../images/js.png";
 import react from "../images/react.png";
 import python from "../images/python.png";
-import docker from "../images/docker.png";
+
 import nodejs from "../images/nodejs.png";
 import github from "../images/github.png";
 import sql from "../images/sql.png";

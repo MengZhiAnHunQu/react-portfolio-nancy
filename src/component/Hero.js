@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image, Row, Container } from "react-bootstrap";
+import { Image, Row, Container } from "react-bootstrap";
 import Nancy from "../images/Nancy.JPG";
 import pexels from "../images/pexels.mp4";
 import "./hero.css";
