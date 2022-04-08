@@ -25,13 +25,13 @@ export const Hero = () => {
             </h3>
           </div>
 
-          <div className="col-md-5 col-xs-12  d-flex ">
+          <div className="col-md-5 col-xs-12 d-flex ">
             <Image
               src={Nancy}
-              width="40%"
+              width="70%"
               height="auto"
               alt=" Nancy photo"
-              className="nancy-img mt-2 mb-5 "
+              className="nancy-img mt-2"
             />
           </div>
         </Row>

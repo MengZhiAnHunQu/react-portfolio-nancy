@@ -12,6 +12,7 @@ import python from "../images/python.png";
 import nodejs from "../images/nodejs.png";
 import github from "../images/github.png";
 import sql from "../images/sql.png";
+import "./skills.css";
 
 export const Skills = () => {
   return (
@@ -74,7 +75,7 @@ export const Skills = () => {
         <Row>
           <div
             className="skill-list d-flex justify-content-between fw-bold
-            flex-wrap mt-5 mb-5"
+            flex-wrap mt-5 mb-5 pb-3"
             style={{ textAlign: "center", fontFamily: "Roboto" }}
           >
             <span>
@@ -84,8 +85,9 @@ export const Skills = () => {
                 width="60px"
                 className="d-block m-auto mb-2"
               />
-              PYTHON
+              Python
             </span>
+
             <span>
               <img
                 src={nodejs}

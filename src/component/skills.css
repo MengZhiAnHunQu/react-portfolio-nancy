@@ -1,0 +1,20 @@
+.skills-section {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.skill-list > span {
+  background-color: rgb(241, 241, 241);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.movie {
+  border-radius: 15px;
+
+  padding: 20px;
+  box-shadow: rgba(41, 41, 41, 0.08) 0px 4px 10px;
+}
+.skill-section > img:hover {
+  width: 90%;
+}

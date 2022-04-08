@@ -23,32 +23,6 @@
   margin: auto;
 }
 
-/* skills */
-.skills-section {
-  min-height: 40vh;
-  padding-left: 12%;
-  padding-right: 12%;
-}
-.section-title {
-  font-size: 50px;
-  color: rgb(113, 16, 137);
-}
-.section-title > hr {
-  width: 25%;
-  display: block;
-  margin: auto;
-  border: 2px dotted purple;
-}
-
-/* projects */
-
-.project-section {
-  background-color: rgb(238, 218, 247);
-  color: rgb(103, 14, 126);
-  padding-left: 12%;
-  padding-right: 12%;
-}
-
 /* contact */
 #contact {
   background-color: rgb(179, 117, 209);
@@ -56,4 +30,20 @@
 
 .btn {
   background-color: rgb(179, 117, 209) !important;
+  box-shadow: 0px 4px 8px #c7c5c5;
+}
+.nancy {
+  border-radius: 25px;
+}
+
+/* title */
+.section-title {
+  font-size: 70px;
+  color: rgb(113, 16, 137);
+}
+.section-title > hr {
+  width: 15%;
+  display: block;
+  margin: auto;
+  border: 1px dotted rgb(0, 0, 0);
 }

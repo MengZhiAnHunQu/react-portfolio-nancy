@@ -1,13 +1,15 @@
 import React from "react";
-import { Col, Container, Row, Button, Image } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 import { SectionTitle } from "./SectionTitle";
 import movie from "../images/movie.png";
 import robot from "../images/robot.png";
+import weatherApp from "../images/weatherApp.png";
 import list from "../images/list.png";
+import "./projects.css";
 
 export const Projects = () => {
   return (
-    <section id="projects" className="project-section pt-5 pb-5 ">
+    <section id="projects" className="project-section  pb-5 ">
       <Container>
         <Row>
           <Col>
@@ -18,14 +20,10 @@ export const Projects = () => {
         {/* project 1 movie */} {/* project 1 movie */}
         <Row className="py-5">
           <Col md="6">
-            <Image
-              src={movie}
-              alt="project "
-              className="img-thumbnail d-block m-auto img-fluid "
-            />
+            <img src={movie} alt="project " className="pj-img " width="80%" />
           </Col>
 
-          <Col md="6">
+          <Col md="6" className="ps-5">
             <h2
               className="proj-title fw-bolder mt-3"
               style={{ fontFamily: "Merriweather" }}
@@ -42,15 +40,20 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-light " className="mr-1">
+            <Button
+              variant="outline-light "
+              className="mr-1 btn "
+              href="https://624eaa3a69f8a2000948992b--react-movielist-nancy.netlify.app/"
+              target="_blank"
+            >
               View Project
             </Button>
 
             <Button
-              variant="outline-light "
-              className="m-1"
-              href="https://github.com/MengZhiAnHunQu/react-movie-list"
               target="_blank"
+              variant="outline-light "
+              className="m-1 btn"
+              href="https://github.com/MengZhiAnHunQu/react-movie-list"
             >
               <span className="fab fa-github text-light"></span> Visit Github
             </Button>
@@ -60,14 +63,10 @@ export const Projects = () => {
         {/* project 2 Not to do List*/}
         <Row className="py-5">
           <Col md="6" className="order-md-2">
-            <img
-              src={list}
-              alt="project "
-              className="img-thumbnail img-fluid "
-            />
+            <img src={list} alt="project " className=" pj-img" width="80%" />
           </Col>
 
-          <Col md="6">
+          <Col md="6" className="pe-2">
             <h2
               className="proj-title fw-bolder mt-3"
               style={{ fontFamily: "Merriweather" }}
@@ -84,11 +83,17 @@ export const Projects = () => {
               amet consectetur adipisicing elit.
             </p>
 
-            <Button variant="outline-light " className="mr-1 btn">
+            <Button
+              target="_blank"
+              variant="outline-light "
+              className="mr-1 btn"
+              href="https://not-to-do-list.netlify.app/"
+            >
               View Project
             </Button>
 
             <Button
+              target="_blank"
               variant="outline-light "
               className="m-1 btn"
               href="https://github.com/MengZhiAnHunQu/react-not-to-do-list"
@@ -102,9 +107,56 @@ export const Projects = () => {
         <Row className="py-5">
           <Col md="6">
             <img
+              src={weatherApp}
+              alt="project "
+              className=" pj-img"
+              width="80%"
+            />
+          </Col>
+
+          <Col md="6" className="ps-5">
+            <h2
+              className="proj-title fw-bolder mt-3 "
+              style={{ fontFamily: "Merriweather" }}
+            >
+              Weather App
+            </h2>
+
+            <p className="fw-bold mt-3">Tech: HTML, CSS, JavaScript, API</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              fuga et facilis sunt similique deserunt. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit.
+            </p>
+
+            <Button
+              target="_blank"
+              variant="outline-light "
+              className="mr-1"
+              href="https://super-weather-app.netlify.app"
+            >
+              View Project
+            </Button>
+
+            <Button
+              target="_blank"
+              variant="outline-light "
+              className="m-1"
+              href="https://github.com/MengZhiAnHunQu/super-weather-app "
+            >
+              <span className="fab fa-github text-light"></span> Visit Github
+            </Button>
+          </Col>
+        </Row>
+        <hr />
+        {/* Project 4 */}
+        <Row className="py-5">
+          <Col md="6" className="order-md-2">
+            <img
               src={robot}
               alt="project "
-              className="img-thumbnail d-block m-auto img-fluid"
+              className=" pj-img d-block m-auto "
+              width="80%"
             />
           </Col>
 
@@ -126,25 +178,28 @@ export const Projects = () => {
             </p>
 
             <Button
+              target="_blank"
               variant="outline-light "
               className="mr-1"
               href="https://react-robot.netlify.app/"
-              target="_blank"
             >
               View Project
             </Button>
 
             <Button
+              target="_blank"
               variant="outline-light "
               className="m-1"
               href="http://github.com/MengZhiAnHunQu/react-robot "
-              target="_blank"
             >
               <span className="fab fa-github text-light"></span> Visit Github
             </Button>
           </Col>
         </Row>
-        <Button variant="outline-light btn-lg " className="d-block m-auto mt-5">
+        <Button
+          variant="outline-light btn-lg "
+          className=" mt-5 d-block m-auto "
+        >
           View More Projects
         </Button>
       </Container>
