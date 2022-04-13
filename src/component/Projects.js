@@ -62,7 +62,6 @@ export const Projects = () => {
             </Button>
           </Col>
         </Row>
-        <hr />
         {/* project 2 Not to do List*/}
         <Row className="py-5">
           <Col md="6" className="order-md-2">
@@ -107,7 +106,6 @@ export const Projects = () => {
             </Button>
           </Col>
         </Row>
-        <hr />
         {/* project 3 */}
         <Row className="py-5">
           <Col md="6">
@@ -133,6 +131,7 @@ export const Projects = () => {
                   mood
                 </p>
                 <p>-Arrange by grid or list view</p>
+                <p>-Omdb real world API</p>
               </div>
             </div>
 
@@ -155,7 +154,6 @@ export const Projects = () => {
             </Button>
           </Col>
         </Row>
-        <hr />
         {/* Project 4 */}
         <Row className="py-5">
           <Col md="6" className="order-md-2">

@@ -5,7 +5,6 @@ import { Contact } from "./component/Contact";
 import { About } from "./component/About";
 import { Skills } from "./component/Skills";
 import { Projects } from "./component/Projects";
-import { GoUp } from "./component/GoUp";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Projects />
         <About />
         <Contact />
-        <GoUp />
       </div>
     </div>
   );

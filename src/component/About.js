@@ -9,7 +9,7 @@ export const About = () => {
       <SectionTitle title="About Me" />
       <Container>
         <Row className="p-5">
-          <Col className="about-me-img">
+          <Col className="about-me-img" md="6">
             <Image
               src={Nancy}
               alt="Nancy"
@@ -17,7 +17,7 @@ export const About = () => {
               width="80%"
             />
           </Col>
-          <Col>
+          <Col md="6">
             <div className="mt-5 ">
               With 5 years of experience in the education industry and my
               participation in the development of an online learning website, I
