@@ -25,7 +25,7 @@
 
 /* contact */
 #contact {
-  background-color: rgb(179, 117, 209);
+  background: url(../src/images/contact-bg.png);
 }
 
 .btn {

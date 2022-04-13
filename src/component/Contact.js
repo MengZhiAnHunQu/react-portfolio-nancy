@@ -19,7 +19,7 @@ export const Contact = () => {
         <Row className="pb-5">
           <Col className="d-flex justify-content-around fs-1">
             <a target="_blank" href="#link to ...">
-              <span className="fab fa-github text-light"></span>
+              <i className="fab fa-github text-light"></i>
             </a>
 
             <a target="_blank" href="#link to ...">
